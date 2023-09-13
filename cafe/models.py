@@ -58,6 +58,7 @@ class Event(Same_settings):
 class Shefs(Same_settings):
     ...
 
+
 class Shef(Same_settings):
     desc = models.TextField(max_length=1500, blank=True)
     photo = models.ImageField(upload_to='chef/', blank=True)
